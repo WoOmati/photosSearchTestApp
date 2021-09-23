@@ -3,54 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		FA1CF24226F24E8500C5E3F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF24126F24E8500C5E3F6 /* AppDelegate.swift */; };
 		FA1CF24426F24E8500C5E3F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF24326F24E8500C5E3F6 /* SceneDelegate.swift */; };
-		FA1CF24626F24E8500C5E3F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF24526F24E8500C5E3F6 /* ViewController.swift */; };
+		FA1CF24626F24E8500C5E3F6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF24526F24E8500C5E3F6 /* SearchViewController.swift */; };
 		FA1CF24926F24E8500C5E3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1CF24726F24E8500C5E3F6 /* Main.storyboard */; };
 		FA1CF24B26F24E8800C5E3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1CF24A26F24E8800C5E3F6 /* Assets.xcassets */; };
 		FA1CF24E26F24E8800C5E3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1CF24C26F24E8800C5E3F6 /* LaunchScreen.storyboard */; };
-		FA1CF25926F24E8800C5E3F6 /* photosSerachTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF25826F24E8800C5E3F6 /* photosSerachTestAppTests.swift */; };
-		FA1CF26426F24E8800C5E3F6 /* photosSerachTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF26326F24E8800C5E3F6 /* photosSerachTestAppUITests.swift */; };
 		FA1CF27226F2568000C5E3F6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF27126F2568000C5E3F6 /* PhotosViewController.swift */; };
+		FA2FBA9B26F3E08000678F0C /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBA9A26F3E08000678F0C /* PhotoModel.swift */; };
+		FA2FBA9D26F3E65200678F0C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBA9C26F3E65200678F0C /* NetworkService.swift */; };
+		FA2FBA9F26F3E79D00678F0C /* SearchPhotosServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBA9E26F3E79D00678F0C /* SearchPhotosServise.swift */; };
+		FA2FBAA226F6928900678F0C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FA2FBAA126F6928900678F0C /* Kingfisher */; };
+		FA2FBAA526F877A900678F0C /* PhotosViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBAA326F877A900678F0C /* PhotosViewCell.swift */; };
+		FA2FBAA626F877A900678F0C /* PhotosViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2FBAA426F877A900678F0C /* PhotosViewCell.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FA1CF25526F24E8800C5E3F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA1CF23626F24E8500C5E3F6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA1CF23D26F24E8500C5E3F6;
-			remoteInfo = photosSerachTestApp;
-		};
-		FA1CF26026F24E8800C5E3F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA1CF23626F24E8500C5E3F6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA1CF23D26F24E8500C5E3F6;
-			remoteInfo = photosSerachTestApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		FA1CF23E26F24E8500C5E3F6 /* photosSerachTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photosSerachTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1CF23E26F24E8500C5E3F6 /* photosSearchTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photosSearchTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1CF24126F24E8500C5E3F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA1CF24326F24E8500C5E3F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA1CF24526F24E8500C5E3F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA1CF24526F24E8500C5E3F6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FA1CF24826F24E8500C5E3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA1CF24A26F24E8800C5E3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA1CF24D26F24E8800C5E3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA1CF24F26F24E8800C5E3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA1CF25426F24E8800C5E3F6 /* photosSerachTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photosSerachTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA1CF25826F24E8800C5E3F6 /* photosSerachTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photosSerachTestAppTests.swift; sourceTree = "<group>"; };
-		FA1CF25A26F24E8800C5E3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA1CF25F26F24E8800C5E3F6 /* photosSerachTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photosSerachTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA1CF26326F24E8800C5E3F6 /* photosSerachTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photosSerachTestAppUITests.swift; sourceTree = "<group>"; };
-		FA1CF26526F24E8800C5E3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA1CF27126F2568000C5E3F6 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		FA2FBA9A26F3E08000678F0C /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		FA2FBA9C26F3E65200678F0C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FA2FBA9E26F3E79D00678F0C /* SearchPhotosServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotosServise.swift; sourceTree = "<group>"; };
+		FA2FBAA326F877A900678F0C /* PhotosViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewCell.swift; sourceTree = "<group>"; };
+		FA2FBAA426F877A900678F0C /* PhotosViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,20 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA1CF25126F24E8800C5E3F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA1CF25C26F24E8800C5E3F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FA2FBAA226F6928900678F0C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +54,7 @@
 		FA1CF23526F24E8500C5E3F6 = {
 			isa = PBXGroup;
 			children = (
-				FA1CF24026F24E8500C5E3F6 /* photosSerachTestApp */,
-				FA1CF25726F24E8800C5E3F6 /* photosSerachTestAppTests */,
-				FA1CF26226F24E8800C5E3F6 /* photosSerachTestAppUITests */,
+				FA1CF24026F24E8500C5E3F6 /* photosSearchTestApp */,
 				FA1CF23F26F24E8500C5E3F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,52 +62,37 @@
 		FA1CF23F26F24E8500C5E3F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA1CF23E26F24E8500C5E3F6 /* photosSerachTestApp.app */,
-				FA1CF25426F24E8800C5E3F6 /* photosSerachTestAppTests.xctest */,
-				FA1CF25F26F24E8800C5E3F6 /* photosSerachTestAppUITests.xctest */,
+				FA1CF23E26F24E8500C5E3F6 /* photosSearchTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA1CF24026F24E8500C5E3F6 /* photosSerachTestApp */ = {
+		FA1CF24026F24E8500C5E3F6 /* photosSearchTestApp */ = {
 			isa = PBXGroup;
 			children = (
 				FA1CF24126F24E8500C5E3F6 /* AppDelegate.swift */,
 				FA1CF24326F24E8500C5E3F6 /* SceneDelegate.swift */,
-				FA1CF24526F24E8500C5E3F6 /* ViewController.swift */,
+				FA1CF24526F24E8500C5E3F6 /* SearchViewController.swift */,
+				FA2FBAA326F877A900678F0C /* PhotosViewCell.swift */,
+				FA2FBAA426F877A900678F0C /* PhotosViewCell.xib */,
 				FA1CF24726F24E8500C5E3F6 /* Main.storyboard */,
 				FA1CF27126F2568000C5E3F6 /* PhotosViewController.swift */,
+				FA2FBA9A26F3E08000678F0C /* PhotoModel.swift */,
+				FA2FBA9C26F3E65200678F0C /* NetworkService.swift */,
+				FA2FBA9E26F3E79D00678F0C /* SearchPhotosServise.swift */,
 				FA1CF24A26F24E8800C5E3F6 /* Assets.xcassets */,
 				FA1CF24C26F24E8800C5E3F6 /* LaunchScreen.storyboard */,
 				FA1CF24F26F24E8800C5E3F6 /* Info.plist */,
 			);
-			path = photosSerachTestApp;
-			sourceTree = "<group>";
-		};
-		FA1CF25726F24E8800C5E3F6 /* photosSerachTestAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				FA1CF25826F24E8800C5E3F6 /* photosSerachTestAppTests.swift */,
-				FA1CF25A26F24E8800C5E3F6 /* Info.plist */,
-			);
-			path = photosSerachTestAppTests;
-			sourceTree = "<group>";
-		};
-		FA1CF26226F24E8800C5E3F6 /* photosSerachTestAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FA1CF26326F24E8800C5E3F6 /* photosSerachTestAppUITests.swift */,
-				FA1CF26526F24E8800C5E3F6 /* Info.plist */,
-			);
-			path = photosSerachTestAppUITests;
+			path = photosSearchTestApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA1CF23D26F24E8500C5E3F6 /* photosSerachTestApp */ = {
+		FA1CF23D26F24E8500C5E3F6 /* photosSearchTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA1CF26826F24E8800C5E3F6 /* Build configuration list for PBXNativeTarget "photosSerachTestApp" */;
+			buildConfigurationList = FA1CF26826F24E8800C5E3F6 /* Build configuration list for PBXNativeTarget "photosSearchTestApp" */;
 			buildPhases = (
 				FA1CF23A26F24E8500C5E3F6 /* Sources */,
 				FA1CF23B26F24E8500C5E3F6 /* Frameworks */,
@@ -146,46 +102,13 @@
 			);
 			dependencies = (
 			);
-			name = photosSerachTestApp;
+			name = photosSearchTestApp;
+			packageProductDependencies = (
+				FA2FBAA126F6928900678F0C /* Kingfisher */,
+			);
 			productName = photosSerachTestApp;
-			productReference = FA1CF23E26F24E8500C5E3F6 /* photosSerachTestApp.app */;
+			productReference = FA1CF23E26F24E8500C5E3F6 /* photosSearchTestApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FA1CF25326F24E8800C5E3F6 /* photosSerachTestAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA1CF26B26F24E8800C5E3F6 /* Build configuration list for PBXNativeTarget "photosSerachTestAppTests" */;
-			buildPhases = (
-				FA1CF25026F24E8800C5E3F6 /* Sources */,
-				FA1CF25126F24E8800C5E3F6 /* Frameworks */,
-				FA1CF25226F24E8800C5E3F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA1CF25626F24E8800C5E3F6 /* PBXTargetDependency */,
-			);
-			name = photosSerachTestAppTests;
-			productName = photosSerachTestAppTests;
-			productReference = FA1CF25426F24E8800C5E3F6 /* photosSerachTestAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FA1CF25E26F24E8800C5E3F6 /* photosSerachTestAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA1CF26E26F24E8800C5E3F6 /* Build configuration list for PBXNativeTarget "photosSerachTestAppUITests" */;
-			buildPhases = (
-				FA1CF25B26F24E8800C5E3F6 /* Sources */,
-				FA1CF25C26F24E8800C5E3F6 /* Frameworks */,
-				FA1CF25D26F24E8800C5E3F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA1CF26126F24E8800C5E3F6 /* PBXTargetDependency */,
-			);
-			name = photosSerachTestAppUITests;
-			productName = photosSerachTestAppUITests;
-			productReference = FA1CF25F26F24E8800C5E3F6 /* photosSerachTestAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -199,17 +122,9 @@
 					FA1CF23D26F24E8500C5E3F6 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					FA1CF25326F24E8800C5E3F6 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = FA1CF23D26F24E8500C5E3F6;
-					};
-					FA1CF25E26F24E8800C5E3F6 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = FA1CF23D26F24E8500C5E3F6;
-					};
 				};
 			};
-			buildConfigurationList = FA1CF23926F24E8500C5E3F6 /* Build configuration list for PBXProject "photosSerachTestApp" */;
+			buildConfigurationList = FA1CF23926F24E8500C5E3F6 /* Build configuration list for PBXProject "photosSearchTestApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,13 +133,14 @@
 				Base,
 			);
 			mainGroup = FA1CF23526F24E8500C5E3F6;
+			packageReferences = (
+				FA2FBAA026F6928900678F0C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = FA1CF23F26F24E8500C5E3F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA1CF23D26F24E8500C5E3F6 /* photosSerachTestApp */,
-				FA1CF25326F24E8800C5E3F6 /* photosSerachTestAppTests */,
-				FA1CF25E26F24E8800C5E3F6 /* photosSerachTestAppUITests */,
+				FA1CF23D26F24E8500C5E3F6 /* photosSearchTestApp */,
 			);
 		};
 /* End PBXProject section */
@@ -237,20 +153,7 @@
 				FA1CF24E26F24E8800C5E3F6 /* LaunchScreen.storyboard in Resources */,
 				FA1CF24B26F24E8800C5E3F6 /* Assets.xcassets in Resources */,
 				FA1CF24926F24E8500C5E3F6 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA1CF25226F24E8800C5E3F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA1CF25D26F24E8800C5E3F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FA2FBAA626F877A900678F0C /* PhotosViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,43 +164,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA1CF24626F24E8500C5E3F6 /* ViewController.swift in Sources */,
+				FA2FBA9D26F3E65200678F0C /* NetworkService.swift in Sources */,
+				FA1CF24626F24E8500C5E3F6 /* SearchViewController.swift in Sources */,
+				FA2FBA9F26F3E79D00678F0C /* SearchPhotosServise.swift in Sources */,
 				FA1CF27226F2568000C5E3F6 /* PhotosViewController.swift in Sources */,
 				FA1CF24226F24E8500C5E3F6 /* AppDelegate.swift in Sources */,
+				FA2FBA9B26F3E08000678F0C /* PhotoModel.swift in Sources */,
 				FA1CF24426F24E8500C5E3F6 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA1CF25026F24E8800C5E3F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA1CF25926F24E8800C5E3F6 /* photosSerachTestAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA1CF25B26F24E8800C5E3F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA1CF26426F24E8800C5E3F6 /* photosSerachTestAppUITests.swift in Sources */,
+				FA2FBAA526F877A900678F0C /* PhotosViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FA1CF25626F24E8800C5E3F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA1CF23D26F24E8500C5E3F6 /* photosSerachTestApp */;
-			targetProxy = FA1CF25526F24E8800C5E3F6 /* PBXContainerItemProxy */;
-		};
-		FA1CF26126F24E8800C5E3F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA1CF23D26F24E8500C5E3F6 /* photosSerachTestApp */;
-			targetProxy = FA1CF26026F24E8800C5E3F6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA1CF24726F24E8500C5E3F6 /* Main.storyboard */ = {
@@ -441,12 +319,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = photosSerachTestApp/Info.plist;
+				INFOPLIST_FILE = photosSearchTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "wo-Omati.photosSerachTestApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "wo-Omati.photosSearchTestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,102 +337,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = photosSerachTestApp/Info.plist;
+				INFOPLIST_FILE = photosSearchTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "wo-Omati.photosSerachTestApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "wo-Omati.photosSearchTestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		FA1CF26C26F24E8800C5E3F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = photosSerachTestAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "wo-Omati.photosSerachTestAppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photosSerachTestApp.app/photosSerachTestApp";
-			};
-			name = Debug;
-		};
-		FA1CF26D26F24E8800C5E3F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = photosSerachTestAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "wo-Omati.photosSerachTestAppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photosSerachTestApp.app/photosSerachTestApp";
-			};
-			name = Release;
-		};
-		FA1CF26F26F24E8800C5E3F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = photosSerachTestAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "wo-Omati.photosSerachTestAppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = photosSerachTestApp;
-			};
-			name = Debug;
-		};
-		FA1CF27026F24E8800C5E3F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = photosSerachTestAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "wo-Omati.photosSerachTestAppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = photosSerachTestApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA1CF23926F24E8500C5E3F6 /* Build configuration list for PBXProject "photosSerachTestApp" */ = {
+		FA1CF23926F24E8500C5E3F6 /* Build configuration list for PBXProject "photosSearchTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA1CF26626F24E8800C5E3F6 /* Debug */,
@@ -563,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA1CF26826F24E8800C5E3F6 /* Build configuration list for PBXNativeTarget "photosSerachTestApp" */ = {
+		FA1CF26826F24E8800C5E3F6 /* Build configuration list for PBXNativeTarget "photosSearchTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA1CF26926F24E8800C5E3F6 /* Debug */,
@@ -572,25 +370,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA1CF26B26F24E8800C5E3F6 /* Build configuration list for PBXNativeTarget "photosSerachTestAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA1CF26C26F24E8800C5E3F6 /* Debug */,
-				FA1CF26D26F24E8800C5E3F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA1CF26E26F24E8800C5E3F6 /* Build configuration list for PBXNativeTarget "photosSerachTestAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA1CF26F26F24E8800C5E3F6 /* Debug */,
-				FA1CF27026F24E8800C5E3F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA2FBAA026F6928900678F0C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA2FBAA126F6928900678F0C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA2FBAA026F6928900678F0C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA1CF23626F24E8500C5E3F6 /* Project object */;
 }

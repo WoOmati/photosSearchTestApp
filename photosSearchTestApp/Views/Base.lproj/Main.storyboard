@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Search View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="photosSerachTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SearchViewController" customModule="photosSearchTestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,20 +20,30 @@
                                 <rect key="frame" x="183" y="433" width="48" height="30"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <segue destination="qAM-94-Q1T" kind="show" id="CMg-5N-GLK"/>
+                                    <action selector="search:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DSZ-oP-KEn"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q1z-cX-qoM">
+                                <rect key="frame" x="15" y="374" width="384" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="bO9-X6-QQp" firstAttribute="top" secondItem="Q1z-cX-qoM" secondAttribute="bottom" constant="25" id="8PV-B0-VJk"/>
+                            <constraint firstItem="Q1z-cX-qoM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="D0I-rw-jy0"/>
                             <constraint firstItem="bO9-X6-QQp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="f7A-3E-mwF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Q1z-cX-qoM" secondAttribute="trailing" constant="15" id="qmO-2Y-pk3"/>
                             <constraint firstItem="bO9-X6-QQp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yA2-DC-RjZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZUO-X0-Ydx"/>
                     <connections>
                         <outlet property="searchButton" destination="bO9-X6-QQp" id="ckG-a1-tfh"/>
+                        <outlet property="searchText" destination="Q1z-cX-qoM" id="UlL-0b-nCx"/>
+                        <segue destination="qAM-94-Q1T" kind="show" identifier="showPhotos" id="bRG-na-qF0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -43,7 +53,7 @@
         <!--Photos View Controller-->
         <scene sceneID="7gH-No-ZGw">
             <objects>
-                <viewController storyboardIdentifier="PhotosViewController" id="qAM-94-Q1T" customClass="PhotosViewController" customModule="photosSerachTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PhotosViewController" id="qAM-94-Q1T" customClass="PhotosViewController" customModule="photosSearchTestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NL9-vv-2CD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

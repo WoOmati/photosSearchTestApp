@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  photosSerachTestApp
+//  photosSearchTestApp
 //
 //  Created by macbook on 15.09.2021.
 //
