@@ -1,10 +1,3 @@
-//
-//  PhotosViewController.swift
-//  photosSearchTestApp
-//
-//  Created by macbook on 15.09.2021.
-//
-
 import Kingfisher
 import UIKit
 
@@ -13,7 +6,7 @@ class PhotosViewController: UIViewController {
     var searchPhrase: String = ""
     private let searchPhotosServise = SearchPhotosServise()
     @IBOutlet weak var tableView: UITableView!
-    var images: [Image] = []
+    private var images: [Image] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +23,6 @@ class PhotosViewController: UIViewController {
     private func setupTableView() {
         tableView.delegate = self
         tableView.dataSource = self
-//        PhotosViewCell.self
         tableView.register(UINib(nibName: "PhotosViewCell", bundle: nil), forCellReuseIdentifier: "photoCell")
     }
 }

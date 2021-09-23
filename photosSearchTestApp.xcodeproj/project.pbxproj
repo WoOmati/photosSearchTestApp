@@ -51,6 +51,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA04CAB026FD0E1800241553 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CF24A26F24E8800C5E3F6 /* Assets.xcassets */,
+				FA1CF24326F24E8500C5E3F6 /* SceneDelegate.swift */,
+				FA1CF24C26F24E8800C5E3F6 /* LaunchScreen.storyboard */,
+				FA1CF24126F24E8500C5E3F6 /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FA04CAB126FD0E2900241553 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA04CAB526FD0EF400241553 /* Cells */,
+				FA1CF24726F24E8500C5E3F6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA04CAB226FD0E4800241553 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FBA9E26F3E79D00678F0C /* SearchPhotosServise.swift */,
+				FA2FBA9C26F3E65200678F0C /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FA04CAB326FD0E6300241553 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FBA9A26F3E08000678F0C /* PhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA04CAB426FD0E7600241553 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FA04CAB726FD0F4E00241553 /* Search */,
+				FA04CAB626FD0F4100241553 /* Photos */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FA04CAB526FD0EF400241553 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FBAA326F877A900678F0C /* PhotosViewCell.swift */,
+				FA2FBAA426F877A900678F0C /* PhotosViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA04CAB626FD0F4100241553 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CF27126F2568000C5E3F6 /* PhotosViewController.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		FA04CAB726FD0F4E00241553 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CF24526F24E8500C5E3F6 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		FA1CF23526F24E8500C5E3F6 = {
 			isa = PBXGroup;
 			children = (
@@ -70,18 +141,11 @@
 		FA1CF24026F24E8500C5E3F6 /* photosSearchTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				FA1CF24126F24E8500C5E3F6 /* AppDelegate.swift */,
-				FA1CF24326F24E8500C5E3F6 /* SceneDelegate.swift */,
-				FA1CF24526F24E8500C5E3F6 /* SearchViewController.swift */,
-				FA2FBAA326F877A900678F0C /* PhotosViewCell.swift */,
-				FA2FBAA426F877A900678F0C /* PhotosViewCell.xib */,
-				FA1CF24726F24E8500C5E3F6 /* Main.storyboard */,
-				FA1CF27126F2568000C5E3F6 /* PhotosViewController.swift */,
-				FA2FBA9A26F3E08000678F0C /* PhotoModel.swift */,
-				FA2FBA9C26F3E65200678F0C /* NetworkService.swift */,
-				FA2FBA9E26F3E79D00678F0C /* SearchPhotosServise.swift */,
-				FA1CF24A26F24E8800C5E3F6 /* Assets.xcassets */,
-				FA1CF24C26F24E8800C5E3F6 /* LaunchScreen.storyboard */,
+				FA04CAB026FD0E1800241553 /* Base */,
+				FA04CAB226FD0E4800241553 /* Services */,
+				FA04CAB126FD0E2900241553 /* Views */,
+				FA04CAB326FD0E6300241553 /* Models */,
+				FA04CAB426FD0E7600241553 /* Modules */,
 				FA1CF24F26F24E8800C5E3F6 /* Info.plist */,
 			);
 			path = photosSearchTestApp;

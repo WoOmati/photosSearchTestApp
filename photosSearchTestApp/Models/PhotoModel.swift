@@ -1,10 +1,3 @@
-//
-//  PhotoModel.swift
-//  photosSearchTestApp
-//
-//  Created by macbook on 16.09.2021.
-//
-
 import Foundation
 
 struct SearchResponse: Decodable {
